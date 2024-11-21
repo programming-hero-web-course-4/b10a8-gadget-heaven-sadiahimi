@@ -1,0 +1,29 @@
+.product-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+  transition: box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.product-image {
+  max-width: 100%;  /* ইমেজের প্রস্থ 100% রাখুন */
+  height: auto;     /* উচ্চতা স্বয়ংক্রিয়ভাবে সামঞ্জস্য করুন */
+  border-radius: 8px; /* কোণ গোলাকার করুন */
+  margin-bottom: 1rem; /* নিচে মার্জিন দিন */
+}
+
+.view-details-btn {
+  background-color: #6200ea;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 1rem;
+}

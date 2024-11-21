@@ -1,0 +1,23 @@
+.categories-sidebar { 
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.categories-sidebar button {
+  background-color: #f0f0f0;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.categories-sidebar button:hover {
+  background-color: #ddd;
+}
+
+.categories-sidebar button:focus {
+  background-color: #6200ea;
+  color: white;
+}
